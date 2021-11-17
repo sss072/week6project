@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<meta name="description" content="weather api project">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Weather Api Project</title>
+<title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form name='searchForm' id='searchForm'>
+                <div class="row">
+                    <div class="col-md-2 offset-md-3">
+                        <input type="text" class="form-control" id='search' placeholder="City Name">
+                    </div>
+                
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-primary" onclick="displayData()">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br><br> 
+        <div id = "High">
+            High 
+        </div>
+        <br><br>
+        <div id = "Low">
+            Low 
+        </div>
+        <br><br>
+        <div id = "Forecast">
+            Forecast 
+        </div>
+        <br><br>
+        <div id = "Humidity">
+            Humidity
+        </div>
+        <br><br>
+        
+
+
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
